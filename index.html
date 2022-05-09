@@ -1,20 +1,33 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
  "http://www.w3.org/TR/html4/strict.dtd">
+
 <html>
     <body>
         <title>パスワード入力</title>
         
+        <script language="javascript" type="text/javascript">
+        function OnButtonClick() {
+            target = document.getElementById("pw");
+            null = document.getElementById("output");
+            target.textContent= "";
+        }
+    </script>
+        
         <link rel="stylesheet" href="index.css">
     
     </body>
-   <center> <p style="font-size: 10pt;">ここから先へはパスワードを入力しないと閲覧できません。<br>By管理者笑</p></center>
+   <center> 
+   <p style="font-size: 20pt; font-family: Arial;">パスワードを入れてね笑</p>
+   <p style="color: gray; font-family: Arial;">パスワードのヒント:インスタ</p>
+   </center>
    <center>
-   <input 		required="required" placeholder="パスワードを入力" type="password" size="50">
+   <input id="pw"		required="required" placeholder="パスワードを入力"  type="password" size="50">
    
    </center>
-   
+   <p style="font-size:8pt;" ><br></p>
    <center>
-       <a class="btn" HREF="https://www.google.com">送信</a>
+       <a onclick="OnButtonClick();" class="btn btn-send">送信</a>
+   <div id="output" ></div>
    </center>
 
 
