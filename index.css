@@ -1,12 +1,17 @@
+@media only screen and (max-width: 750px) {
+	img { max-width: 100%; }
+}
+
+
 .btn,
 a.btn,
 button.btn {
   font-size: 1.6rem;
   font-weight: 700;
-  line-height: 1.5;
+  line-height: 1;
   position: relative;
   display: inline-block;
-  padding: 1rem 4rem;
+  padding: 1rem 2.5rem;
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -20,4 +25,13 @@ button.btn {
   letter-spacing: 0.1em;
   color: #212529;
   border-radius: 0.5rem;
+}
+
+.btn-send,
+a.btn-send
+{
+    font-family: Arial;
+    font-size: 15pt;
+    color: #fff;
+    background: rgb(8, 155, 255);
 }
