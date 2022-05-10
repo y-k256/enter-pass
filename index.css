@@ -15,7 +15,7 @@ button.btn {
   line-height: 1;
   position: relative;
   display: inline-block;
-  padding: 1.6rem 5rem;
+  padding: 0.4rem 1rem;
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -28,14 +28,14 @@ button.btn {
   text-decoration: none;
   letter-spacing: 0.1em;
   color: #212529;
-  border-radius: 0.7rem;
+  border-radius: 0.3rem;
 }
 
 .btn-send,
 a.btn-send
 {
     font-family: Arial;
-    font-size: 30pt;
+    font-size: 10pt;
     color: #fff;
     background: rgb(8, 155, 255);
 }
