@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+ "http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+    <body>
+    <head>
+        <title>パスワード入力</title>
+        
+        <script src="index.js">
+    </script>
+        
+        <link rel="stylesheet" href="index.css">
+    
+    </head>
+   <center> 
+   <p style="font-size: 20pt; font-family: Arial;">パスワードを入れろ</p>
+   <p style="color: gray; font-family: Arial;">パスワードのヒント:インスタ</p>
+   </center>
+   <center>
+   <input id="pw" required="required" placeholder="パスワードを入力"  type="password" size="50" class="inputStyle">
+   
+   </center>
+   <p style="font-size:8pt;" ><br></p>
+   <center>
+       <a href="javaScript:void(0)" onclick="OnButtonClick()" class="btn btn-send">送信</a>
+   <p></p>
+   <div style="font-family: Arial;" id="output" ></div>
+   </center>
+
+    </body>
+</html>
